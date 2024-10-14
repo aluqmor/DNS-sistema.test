@@ -3,7 +3,7 @@
 
 Vagrant.configure("2") do |config|
   
-    config.ssh.insert_key = false
+    config.vbguest.auto_update = false
   
     # Máquina imaginaria Mercurio 192.168.57.101
     
