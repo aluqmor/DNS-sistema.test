@@ -1,11 +1,9 @@
 zone "sistema.test" {
-	type slave;
+	type master;
 	file "/var/lib/bind/db.sistema.test";
-	masters { 192.168.57.103; };
 };
 
 zone "57.168.192.in-addr.arpa" {
-	type slave;
+	type master;
 	file "/var/lib/bind/db.192.168.57";
-	masters { 192.168.57.103; };
 };
