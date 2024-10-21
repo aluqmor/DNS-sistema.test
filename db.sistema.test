@@ -1,0 +1,12 @@
+$ttl 38400 ;
+@ IN SOA venus.sistema.test. root.sistema.test. (
+	2016101401 
+	  604800 
+	  86400 
+	  2419200 
+	  7200 )
+
+@ IN NS		venus.sistema.test.
+@ IN NS		tierra.sistema.test
+
+

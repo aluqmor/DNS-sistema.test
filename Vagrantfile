@@ -14,6 +14,7 @@ Vagrant.configure("2") do |config|
       venus.vm.provision "shell", inline: <<-SHELL
       apt-get update
       apt-get install -y bind9 dnsutils
+      systemctl restart bind9
       SHELL
     end
     
@@ -24,6 +25,7 @@ Vagrant.configure("2") do |config|
       tierra.vm.provision "shell", inline: <<-SHELL
       apt-get update
       apt-get install -y bind9 dnsutils
+      systemctl restart bind9
       SHELL
     end
     
