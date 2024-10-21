@@ -11,6 +11,8 @@ $ttl 38400 ;
 
 tierra IN A	192.168.57.103
 venus IN A	192.168.57.102
+marte IN A	192.168.57.104
 
 ns1 IN CNAME	tierra.sistema.test
 ns2 IN CNAME	venus.tierra.test
+mail IN CNAME	marte.sistema.test
