@@ -1,11 +1,11 @@
 zone "sistema.test" {
-	type slave;
+	type master;
 	file "/etc/bind/zones/db.sistema.test";
-	masters { 192.168.57.103; };
-}
+	negative-cache-time 7200;
+};
 
 zone "57.168.192.in-addr.arpa" {
-	type slave;
-	file "/etc/bind/zones/db.192.168.57";
-	masters { 192.168.57.103; };
+	type master;
+	file "/var/lib/bind/db.192.168.57";
+	negative-cache-time 7200;
 };
