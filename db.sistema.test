@@ -1,13 +1,13 @@
 $ttl 38400 ;
 @ IN SOA tierra.sistema.test. root.sistema.test. (
-	2016101401 
+	  3 
 	  604800 
 	  86400 
 	  2419200 
 	  7200 )
 
 @ IN NS		tierra.sistema.test.
-@ IN NS		venus.sistema.test
+@ IN NS		venus.sistema.test.
 
 tierra IN A	192.168.57.103
 venus IN A	192.168.57.102
@@ -16,3 +16,5 @@ marte IN A	192.168.57.104
 ns1 IN CNAME	tierra.sistema.test
 ns2 IN CNAME	venus.tierra.test
 mail IN CNAME	marte.sistema.test
+
+@ IN MX 10	marte.sistema.test

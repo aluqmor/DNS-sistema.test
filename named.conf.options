@@ -11,8 +11,8 @@ options {
 	};
 	auth-nxdomain no;
 	recursion yes;
-	allow-recursion { "tierra"; };
-	
+	allow-recursion { 127.0.0.1; 192.168.57.0/24; };                                         amed[2702]: zone 57.168.192.in
+        allow-query { 127.0.0.1; 192.168.57.0/24; };  
 	dnssec-validation yes;
 	listen-on { any; };
 	listen-on-v6 { none; };
