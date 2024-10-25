@@ -52,3 +52,10 @@ El equipo `marte.sistema.test` actuará como el servidor de correo del dominio `
 ---
 
 ## Comprobaciones
+
+![c1](https://github.com/aluqmor/DNS-sistema.test/blob/main/capturas/c1.png)
+![c2](https://github.com/aluqmor/DNS-sistema.test/blob/main/capturas/c2.png)
+![c3](https://github.com/aluqmor/DNS-sistema.test/blob/main/capturas/c3.png)
+![c4](https://github.com/aluqmor/DNS-sistema.test/blob/main/capturas/c4.png)
+![c5](https://github.com/aluqmor/DNS-sistema.test/blob/main/capturas/c5.png)
+![c6](https://github.com/aluqmor/DNS-sistema.test/blob/main/capturas/c6.png)
