@@ -21,9 +21,10 @@ Este repositorio contiene la configuración y documentación necesaria para impl
 | Gráfico/Server       | marte.sistema.test     | .104    | Imaginario         |
 
 ---
-
-
-
+![1](https://github.com/aluqmor/DNS-sistema.test/blob/main/capturas/1.png)
+![2](https://github.com/aluqmor/DNS-sistema.test/blob/main/capturas/2.png)
+![3](https://github.com/aluqmor/DNS-sistema.test/blob/main/capturas/3.png)
+![4](https://github.com/aluqmor/DNS-sistema.test/blob/main/capturas/4.png)
 ---
 
 ## Configuración del Servidor DNS
